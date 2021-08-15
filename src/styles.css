@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.output-section {
+  padding: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.navBar {
+  background-color: aliceblue;
+}
+
+body {
+  background: #ffb580;
+}
+
+.output {
+  display: inline;
+  padding: 20px 2px;
+}
+
+@media only screen and (max-width: 480px) {
+  .output {
+    display: inline;
+    padding: 20px 2px;
+    max-width: 300px;
+  }
+}
